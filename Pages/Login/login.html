@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Login - SaldoSeguro</title>
-  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="login.css" />
 </head>
 <body>
   <div class="container">
     <div class="form-box">
       <h2>LOGIN</h2>
       <form id="loginForm">
-        <input type="email" id="email" placeholder="Email" required>
-        <input type="password" id="password" placeholder="Senha" required>
-        <button type="submit">Entrar</button>
+        <input type="email" placeholder="Email" id="email" />
+        <input type="password" placeholder="Senha" id="password" />
+          <button type="submit" id="entrar">Entrar</button>
       </form>
       <div class="links">
-         <a href="/Pages/Cadastro/cadastre.html">Não tem uma conta?</a>
-         <a href="/index.html" class="botao-voltar">← Voltar para a página inicial</a>
+        <a href="#">Esqueceu a senha?</a>
+        <a href="/Pages/Cadastro/cadastre.html">Não tem uma conta?</a>
       </div>
-      <img src="/assets/icone$$$.png" alt="Ícone login" class="icon-img">
+      <div class="logo-text">FINANTIC</div>
     </div>
-  <div class="bg-img">
-    <img src="/assets/imagem-fundo.png" alt="Imagem Cadastro" />
+   
+    <div class="bolinha">
+      <a href="/index.html">
+      <img class="bolinha-img" src="/src/seta.png" alt="">
+      </a>
+    </div>
+    <div class="bg-img">
+      <!-- Substitua este src pelo caminho da imagem quando for colocar -->
+      <img src="/src/logo.png" alt="Logo" class="icon-img" />
+    </div>
   </div>
-  </div>
+
   <script src="login.js"></script>
+  
 </body>
 </html>
