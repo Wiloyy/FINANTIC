@@ -1,0 +1,6 @@
+email,senha,salario,nomeEssenciais,essenciais,nomeNaoEssenciais,naoEssenciais,poupanca
+gustavo@example.com,123456,5000,Aluguel,1500,Lazer,500,2000
+maria.silva@example.com,minhaSenha,4000,Contas,1200,Compras,300,1500
+joao.santos@example.com,senha123,3500,Aluguel e Contas,1300,Viagens,700,1000
+ana.costa@example.com,pass1234,4500,Condomínio,1800,Cursos,400,1500
+carla.mendes@example.com,123abc,3800,Contas Fixas,1400,Academia,300,1200

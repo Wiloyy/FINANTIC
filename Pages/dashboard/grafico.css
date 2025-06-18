@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0c1f3f;
+  margin: 0;
+  padding: 40px;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  gap: 80px;
+  margin-top: 50px;
+}
+
+.formulario {
+  background: #ffffff;
+  border: 3px solid #0077cc;
+  padding: 25px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.formulario label {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.formulario input {
+  padding: 8px;
+  margin-top: 4px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formulario button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #09304d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.grafico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0; 
+  width: 320px; 
+  height: 360px; 
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.grafico canvas {
+  border: 2px dashed #0077cc;
+  border-radius: 10px;
+  background: white;
+  width: 320px !important;
+  height: 320px !important;
+}
